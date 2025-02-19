@@ -1,0 +1,736 @@
+{
+  "equipment": [
+    {
+      "equipmentId": "E1003",
+      "name": "First Aid Kit",
+      "category": "Medical",
+      "modelType": "Standard Kit",
+      "serialNumber": "SN54321",
+      "installationDate": "2023-06-20",
+      "location": "Warehouse",
+      "inspectionFrequency": "Quarterly",
+      "lastInspection Date": "2025-02-01",
+      "lastCheckedBy": "Jane Smith",
+      "status": "🔄 Request Inspection from Technician",
+      "assignSafetyGuy": "Jack Carter",
+      "notes": "Some items need restocking.",
+      "lastInspection status": "Pending",
+      "nextDue": "2025-05-01",
+      "attachments": [],
+      "id": "b130"
+    },
+    {
+      "equipmentId": "E1003",
+      "name": "Emergency Exit Sign",
+      "category": "Safety Signage",
+      "modelType": "Standard Kit",
+      "serialNumber": "SN54321",
+      "installationDate": "2023-06-20",
+      "location": "Hallway",
+      "inspectionFrequency": "Quarterly",
+      "lastInspection Date": "2025-02-01",
+      "lastCheckedBy": "Jack Carter",
+      "status": "⏳ Pending Inspection",
+      "assignSafetyGuy": "Jack Carter",
+      "notes": "Some items need restocking.",
+      "lastInspection status": "Pending",
+      "nextDue": "2025-05-01",
+      "attachments": [],
+      "id": "e2f6"
+    },
+    {
+      "id": "6a5c",
+      "equipmentId": "E1002",
+      "name": "First Aid Kit",
+      "category": "Medical",
+      "modelType": "Standard Kit",
+      "serialNumber": "SN54321",
+      "installationDate": "2023-06-20",
+      "location": "Warehouse",
+      "inspectionFrequency": "Quarterly",
+      "lastInspection Date": "2025-02-01",
+      "lastCheckedBy": "Jane Smith",
+      "status": "🔄 Request Inspection from Technician",
+      "assignSafetyGuy": "Jack Carter",
+      "notes": "Some items need restocking.",
+      "lastInspection status": "Pending",
+      "nextDue": "2025-05-01",
+      "attachments": []
+    },
+    {
+      "id": "9910",
+      "equipmentId": "E1003",
+      "name": "First Aid Kit",
+      "category": "Medical",
+      "modelType": "Standard Kit",
+      "serialNumber": "SN54321",
+      "installationDate": "2023-06-20",
+      "location": "Warehouse",
+      "inspectionFrequency": "Quarterly",
+      "lastInspection Date": "2025-02-01",
+      "lastCheckedBy": "Jane Smith",
+      "status": "🔄 Request Inspection from Technician",
+      "assignSafetyGuy": "Jack Carter",
+      "notes": "Some items need restocking.",
+      "lastInspection status": "Pending",
+      "nextDue": "2025-05-01",
+      "attachments": []
+    }
+  ],
+  "inspectionReport": [
+    {
+      "equipmentName": "Fire Extinguisher",
+      "category": "Fire Safety",
+      "description": "Fire Exit",
+      "availability": "In Stock",
+      "id": "45a3"
+    },
+    {
+      "equipmentName": "First Aid Kit",
+      "category": "Medical",
+      "description": "Basic Kit with Bandages",
+      "availability": "In Stock",
+      "id": "882b"
+    },
+    {
+      "equipmentName": "Emergency Exit Sign",
+      "category": "Safety Signage",
+      "description": "Glow in the Dark",
+      "availability": "Out of Stock",
+      "id": "acf0"
+    }
+  ],
+  "orderParts": [
+    {
+      "equipmentId": "E-001",
+      "name": "Fire Extinguisher",
+      "location": "Warehouse A",
+      "quantity": "1",
+      "status": "✅ Good",
+      "id": "fa92"
+    },
+    {
+      "equipmentId": "E-002",
+      "name": "First Aid Kit",
+      "location": "Office B",
+      "quantity": "3",
+      "status": "⚠ Needs Refill",
+      "id": "e4d2"
+    },
+    {
+      "equipmentId": "E-003",
+      "name": "Emergency Exit Sign",
+      "location": "Lobby",
+      "quantity": "2",
+      "status": "✅ Good",
+      "id": "a9f8"
+    },
+    {
+      "id": "0b09",
+      "equipment_id": "14",
+      "name": "Eyewash Station",
+      "category": "Safety Equipment",
+      "location": "Lab",
+      "last_inspection_status": "Passed",
+      "status": "OK",
+      "last_inspection": "2024-12-09",
+      "next_due": "2025-03-09",
+      "notes": "Water flow adequate."
+    }
+  ],
+  "order": [
+    {
+      "requestId": "OR-5001",
+      "equipmentName": "First Aid Kit",
+      "requestedOn": "02-05-2025",
+      "status": "📌 Order Requested",
+      "id": "8822"
+    },
+    {
+      "requestId": "OR-5002",
+      "equipmentName": "Fire Extinguisher",
+      "requestedOn": "02-01-2025",
+      "status": "✅ Order Accepted",
+      "id": "1582"
+    },
+    {
+      "requestId": "OR-5003",
+      "equipmentName": "Exit Sign",
+      "requestedOn": "25-Jan-2025",
+      "status": "🚚 Order Received",
+      "id": "868b"
+    }
+  ],
+  "inspection": [
+    {
+      "inspectionId": "1001",
+      "equipment": "Fire Extinguisher",
+      "location": "Office Lobby",
+      "inspectionDate": "01-Feb-2025",
+      "inspectedBy": "John Doe (Technician)",
+      "status": "✅ Passed",
+      "id": "48c3"
+    },
+    {
+      "inspectionId": "1002",
+      "equipment": "First Aid Kit",
+      "location": "Warehouse",
+      "inspectionDate": "05-Feb-2025",
+      "inspectedBy": "Jane Smith (Technician)",
+      "status": "⚠️ Issues Found",
+      "id": "ef41"
+    },
+    {
+      "inspectionId": "1003",
+      "equipment": "Exit Sign",
+      "location": "Emergency Exit",
+      "inspectionDate": "28-Jan-2025",
+      "inspectedBy": "Mark Lee (Technician)",
+      "status": "❌ Failed",
+      "id": "4b98"
+    },
+    {
+      "inspectionId": "1004",
+      "equipment": "Fire Alarm",
+      "location": "Server Room",
+      "inspectionDate": "10-Feb-2025",
+      "inspectedBy": "NA",
+      "status": "🕒 Pending",
+      "id": "1ca0"
+    }
+  ],
+  "SafetyPersonal": [
+    {
+      "personnelId": "SP-1001",
+      "name": "John Doe",
+      "role": "Safety I",
+      "assignedProperties": [
+        "Warehouse A"
+      ],
+      "status": "✅ Active",
+      "email": "john.doe@example.com",
+      "phoneNumber": "7397966719",
+      "id": "525d"
+    },
+    {
+      "personnelId": "SP-1002",
+      "name": "Jane Smith",
+      "role": "Safety II",
+      "assignedProperties": [
+        "Office Lobby",
+        "Plant B"
+      ],
+      "status": "✅ Active",
+      "email": "jane.smith@example.com",
+      "phoneNumber": "7397966719",
+      "id": "2733"
+    },
+    {
+      "personnelId": "SP-1003",
+      "name": "Mike Johnson",
+      "role": "Safety II",
+      "assignedProperties": [
+        "Multiple Locations"
+      ],
+      "status": "❌ Inactive",
+      "email": "mike.johnson@example.com",
+      "phoneNumber": "7397966719",
+      "id": "d0f0"
+    },
+    {
+      "id": "5c47",
+      "name": "John Doe",
+      "role": "Safety I",
+      "assignedProperties": [
+        "Warehouse A"
+      ],
+      "email": "john.doe@example.com",
+      "phoneNumber": "7397966719",
+      "status": "✅ Active"
+    },
+    {
+      "id": "77b9",
+      "equipment_id": "14",
+      "name": "Eyewash Station",
+      "category": "Safety Equipment",
+      "location": "Lab",
+      "last_inspection_status": "Passed",
+      "status": "OK",
+      "last_inspection": "2024-12-09",
+      "next_due": "2025-03-09",
+      "notes": "Water flow adequate."
+    },
+    {
+      "id": "525d",
+      "personnelId": "SP-1001",
+      "name": "John Doe",
+      "role": "Safety I",
+      "assignedProperties": [
+        "Warehouse A"
+      ],
+      "status": "✅ Active",
+      "email": "john.doe@example.com",
+      "phoneNumber": "7397966719"
+    },
+    {
+      "id": "5a3a",
+      "personnelId": "SP-1001",
+      "name": "John Doe",
+      "role": "Safety I",
+      "assignedProperties": [
+        "Warehouse A"
+      ],
+      "status": "✅ Active",
+      "email": "john.doe@example.com",
+      "phoneNumber": "7397966719"
+    }
+  ],
+  "jobTechnicians": [
+    {
+      "jobid": "JOB-201",
+      "name": "John Doe",
+      "role": "Tech I",
+      "location": "Site A",
+      "priority": "🔴 High",
+      "status": "⏳ Pending",
+      "dueDate": "2025-02-11",
+      "id": "56ea"
+    },
+    {
+      "jobid": "JOB-202",
+      "name": "Jane Smith",
+      "role": "Tech II",
+      "location": "Factory",
+      "priority": "🟡 Medium",
+      "status": "✅ Completed",
+      "dueDate": "2024-12-10",
+      "id": "e9c9"
+    },
+    {
+      "jobid": "JOB-203",
+      "name": "Jane Smith",
+      "role": "Tech I",
+      "location": "Site B",
+      "priority": "⚪ Low",
+      "status": "❌ Cancel",
+      "dueDate": "2024-12-10",
+      "id": "37dd"
+    }
+  ],
+  "technician": [
+    {
+      "techId": "TECH-001",
+      "name": "John Doe",
+      "role": "Tech I",
+      "email": "john@xyz.com",
+      "status": "Active",
+      "id": "1840"
+    },
+    {
+      "techId": "TECH-002",
+      "name": "Jane Smith",
+      "role": "Tech II",
+      "email": "jane@abc.com",
+      "status": "Locked",
+      "id": "9e47"
+    }
+  ],
+  "orderManagement": [
+    {
+      "orderId": "ORD-001",
+      "partName": "Fire Extinguisher",
+      "quantity": 5,
+      "orderDate": "2025-02-10",
+      "status": "Processing",
+      "id": "3a57"
+    },
+    {
+      "orderId": "ORD-002",
+      "partName": "Safety Gloves",
+      "quantity": 20,
+      "orderDate": "2025-02-08",
+      "status": "Delivered",
+      "id": "7c07"
+    }
+  ],
+  "inventoryPart": [
+    {
+      "partId": "PART-101",
+      "partName": "Gear Box",
+      "stockLevel": 5,
+      "thresholdLevel": 10,
+      "status": "Low Stock",
+      "id": "b340"
+    },
+    {
+      "partId": "PART-102",
+      "partName": "Hydraulic Pump",
+      "stockLevel": 15,
+      "thresholdLevel": 10,
+      "status": "Sufficient",
+      "id": "49cb"
+    }
+  ],
+  "technicianMangement": [
+    {
+      "technicianid": "Tech-001",
+      "name": "John Doe",
+      "role": "Tech I",
+      "status": "✅ Active",
+      "email": "johndoe@example.com",
+      "certificationupload": [],
+      "phonenumber": 1234567890,
+      "id": "c382"
+    },
+    {
+      "technicianid": "Tech-002",
+      "name": "Jane Smith",
+      "role": "Tech II",
+      "status": "🚫 Inactive",
+      "email": "janesmith@example.com",
+      "certificationupload": [],
+      "phonenumber": 9876543210,
+      "id": "514b"
+    }
+  ],
+  "jobData": [
+    {
+      "jobId": "JB001",
+      "assignedTechnician": "John Doe",
+      "customerName": "Paul Bray",
+      "location": "Warehouse",
+      "scheduledDate": "2025-02-15",
+      "jobStatus": "✅ Completed",
+      "approvalStatus": "✅ Completed",
+      "notes": "Dummy note",
+      "attachments": [],
+      "id": "32cf"
+    },
+    {
+      "jobId": "JB002",
+      "assignedTechnician": "Jane Smith",
+      "customerName": "John Cena",
+      "location": "Office Lobby",
+      "scheduledDate": "2024-02-10",
+      "jobStatus": "📅 Scheduled",
+      "approvalStatus": "Approved",
+      "notes": "Dummy note.",
+      "attachments": [],
+      "id": "641a"
+    },
+    {
+      "jobId": "JB003",
+      "assignedTechnician": "John Doe",
+      "customerName": "John Maxwell",
+      "location": "Hallway",
+      "scheduledDate": "2024-12-15",
+      "jobStatus": "⚠️ Pending",
+      "approvalStatus": "⚠️ Pending",
+      "notes": "Dummy note",
+      "attachments": [],
+      "id": "d577"
+    }
+  ],
+  "UserData": [
+    {
+      "Name": "James Bond",
+      "EmailId": "nehal@example.com",
+      "Role": "User",
+      "Status": "Inactive",
+      "id": "74af"
+    },
+    {
+      "Name": "Nehal Ingole",
+      "EmailId": "nehal@example.com",
+      "Role": "Inspection Company",
+      "Status": "InActive",
+      "id": "afd4"
+    },
+    {
+      "Name": "Nehal Ingole",
+      "EmailId": "nehal@example.com",
+      "Role": "Customer",
+      "Status": "Active",
+      "id": "ab9d"
+    },
+    {
+      "Name": "Nehal Ingole",
+      "EmailId": "nehal@example.com",
+      "Role": "3rd Party",
+      "Status": "Active",
+      "id": "7e90"
+    },
+    {
+      "id": "9750",
+      "Name": "Nehal Ingole",
+      "EmailId": "nehal@example.com",
+      "Role": "Admin",
+      "Status": "Active"
+    }
+  ],
+  "InspectionManagement": [
+    {
+      "id": "aad8",
+      "inspectionId": "INS-001",
+      "customerName": "Paul Bray",
+      "assignedTechnician": "Jane Smith",
+      "status": "Reassigned"
+    },
+    {
+      "id": "5f32",
+      "inspectionId": "INS-002",
+      "customerName": "John Cena",
+      "assignedTechnician": "Emma Watson",
+      "status": "Reassigned"
+    },
+    {
+      "id": "bdb9",
+      "inspectionId": "INS-003",
+      "customerName": "Emma Watson",
+      "assignedTechnician": "Jane Smith",
+      "status": "Reassigned"
+    }
+  ],
+  "InventoryMangement": [
+    {
+      "id": "6b60",
+      "itemName": "Widget A",
+      "currentStock": 20,
+      "reorderQuantity": "10",
+      "priorityLevel": "High",
+      "supplierName": "Supplier X"
+    },
+    {
+      "id": "78d9",
+      "itemName": "Widget B",
+      "currentStock": 20,
+      "reorderQuantity": 50,
+      "priorityLevel": "Medium",
+      "supplierName": "Supplier Y"
+    }
+  ],
+  "AdminUserApprovals": [
+    {
+      "id": "9cac",
+      "requestId": "REQ-001",
+      "userName": "Janey Smithy",
+      "email": "janesmith@example.com",
+      "roleRequested": "3rd Party",
+      "uploadedDocuments": [],
+      "status": "Approved",
+      "rejectionReason": "demo"
+    },
+    {
+      "id": "4487",
+      "requestId": "REQ-002",
+      "userName": "Jane Smith",
+      "email": "janesmith@example.com",
+      "roleRequested": "Customer",
+      "uploadedDocuments": [],
+      "status": "Approved"
+    },
+    {
+      "id": "dfcf",
+      "requestId": "REQ-003",
+      "userName": "Janey Smithy",
+      "email": "janesmith@example.com",
+      "roleRequested": "3rd Party",
+      "uploadedDocuments": [],
+      "status": "Approved"
+    }
+  ],
+  "InvoiceManagement": [
+    {
+      "id": "21c8",
+      "invoiceId": "INV-001",
+      "customerName": "John Doe",
+      "amountDue": "$500",
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": "dfbf",
+      "invoiceId": "INV-002",
+      "customerName": "Jane Smith",
+      "amountDue": "$300",
+      "paymentStatus": "Refunded"
+    },
+    {
+      "id": "abb5",
+      "invoiceId": "INV-003",
+      "customerName": " Smith",
+      "amountDue": "$300",
+      "paymentStatus": "paid"
+    },
+    {
+      "id": "41c4",
+      "invoiceId": "INV-004",
+      "customerName": "Jane Smith",
+      "amountDue": "$300",
+      "paymentStatus": "Paid"
+    }
+  ],
+  "Personnel_Management": [
+    {
+      "userID": "USR-04",
+      "name": "Safety3_demo",
+      "role": "Safety III",
+      "status": "Inactive",
+      "assigned_job": 1,
+      "id": "3ae8",
+      "inspectionType": "Technical",
+      "priority": "Medium"
+    },
+    {
+      "id": "04d1",
+      "userID": "USR-04",
+      "name": "Safety2_demo",
+      "role": "Safety II",
+      "status": "active",
+      "assigned_job": 7
+    },
+    {
+      "id": "5264",
+      "userID": "USR-02",
+      "name": "Tech1_demo",
+      "role": "Tech I",
+      "status": "active",
+      "assigned_job": 2
+    },
+    {
+      "id": "75f0",
+      "userID": "USR-03",
+      "name": "Tech2_demo",
+      "role": "Tech II",
+      "status": "active",
+      "assigned_job": 3
+    }
+  ],
+  "Compliance&Safety": [
+    {
+      "id": "c1fe",
+      "technicina_name": "Nehal Ingole",
+      "certification_type": "Electrical",
+      "status": "Certified",
+      "expiry_date": "2023-12-31"
+    },
+    {
+      "id": "82f1",
+      "technicina_name": "tech_1",
+      "certification_type": "Electrical",
+      "status": "Pending",
+      "expiry_date": "2024-11-3"
+    },
+    {
+      "id": "9d8c",
+      "technicina_name": "tech_2",
+      "certification_type": "Fire Safety",
+      "status": "Expired",
+      "expiry_date": "2025-01-31"
+    }
+  ],
+  "Billing&payment": [
+    {
+      "id": "7137",
+      "invoiceID": "INV-003",
+      "customerName": "Cena",
+      "amountDue": 100,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": "c83f",
+      "invoiceID": "INV-002",
+      "customerName": "John",
+      "amountDue": 2100,
+      "paymentStatus": "Paid"
+    },
+    {
+      "id": "5a1e",
+      "invoiceID": "INV-004",
+      "customerName": "Orton",
+      "amountDue": 1500,
+      "paymentStatus": "Paid"
+    }
+  ],
+  "InspectionUserApproval": [
+    {
+      "id": "c451",
+      "requestId": "REQ-001",
+      "userName": "Janey Smithy",
+      "email": "janesmith@example.com",
+      "roleRequested": "Tech III",
+      "uploadedDocuments": [],
+      "status": "Rejected",
+      "rejectionReason": "demo"
+    },
+    {
+      "id": "9d28",
+      "requestId": "REQ-002",
+      "userName": "Jane Smith",
+      "email": "janesmith@example.com",
+      "roleRequested": "Safety III",
+      "uploadedDocuments": [],
+      "status": "Approved"
+    },
+    {
+      "id": "25d8",
+      "requestId": "REQ-003",
+      "userName": "Janey Smithy",
+      "email": "janesmith@example.com",
+      "roleRequested": "Tech III",
+      "uploadedDocuments": [],
+      "status": "Pending"
+    }
+  ],
+  "inspectionManagement": [
+    {
+      "id": "0119",
+      "inspectionID": "INS-01",
+      "customername": "Nehal Ingole",
+      "assigned_technician": "Tech I",
+      "status": "Pending",
+      "inspection_date": "2025-01-23"
+    },
+    {
+      "assigned_technician": "Tech III",
+      "id": "ac55",
+      "status": "Completed",
+      "inspectionID": "INS-03",
+      "customername": "Randy",
+      "inspection_date": "2024-09-02"
+    },
+    {
+      "id": "c909",
+      "inspectionID": "INS-03",
+      "customername": "Randy",
+      "assigned_technician": "Tech III",
+      "status": "Completed",
+      "inspection_date": "2024-09-02"
+    }
+  ],
+  "customerInspection": [
+    {
+      "id": "6163",
+      "customerName": "Nehal Ingole",
+      "inspection_type": "Technical",
+      "request_date": "2025-02-10",
+      "status": "Rejected",
+      "assigned_technician": "Tech III",
+      "inspection_date": "2025-02-07",
+      "rejectionReason": "demo"
+    },
+    {
+      "id": "3832",
+      "customerName": "Randy",
+      "inspection_type": "Scheduled",
+      "request_date": "2025-01-10",
+      "status": "Scheduled"
+    },
+    {
+      "id": "290b",
+      "customerName": "Mark",
+      "inspection_type": "Safety",
+      "request_date": "2024-11-20",
+      "status": "Scheduled"
+    }
+  ]
+}
